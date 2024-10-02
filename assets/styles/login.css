@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.second-header{
+    font-size: 18px !important;
+    font-family: "Jost" sans-serif !important;
+    font-weight: 700 !important;
+}
+.first-header{
+    color: #ee9ae5 !important;
+    font-family: "Jost" sans-serif !important;
+    text-decoration: none !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+}
+.signupbtn{
+    font-weight: 600 !important;
+    font-family: "Jost" sans-serif !important;
+    color: #fff;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    text-align: center !important;
+    background: #9a7af1 !important;
+    cursor: pointer;
+    border: none !important;
+}
+.signupbtn:hover{
+    background: #010851 !important;
+}
+label{
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    font-family: "Jost" sans-serif !important;
+    color: #374151 !important;
+}
+.body-wrap{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100vh !important;
+    background: linear-gradient(99deg, #ee9ae5 0%, #5961f9 100%) !important;
+}
+.body-content{
+    width: 50%;
+    height: 70vh;
+}
+ .body-style{
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    align-items: stretch !important;
+} 
+.image-style{
+    width: 50% !important;
+    background-image: url("/assets/images/login.56b146f0.jpg"); 
+    background-size: cover !important; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px 0px 0px 12px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-style{
+    width: 50% !important;
+}
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+@media (max-width: 430px) {
+    
+    .body-content{
+        width: 100% !important;
+        height: 100vh !important;
+    }
+ 
+   
+    .form-style{
+        width: 100% !important;
+    }
+    .form-style{
+        width: 100% !important;
+    }
+    .image-style{
+        width: 100% !important;
+       height: 250px !important;
+    }
+    .body-style{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important;
+        align-items: stretch !important;
+    } 
+    .body-wrap{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 100vh !important;
+        background: #fff !important;
+    }
+}

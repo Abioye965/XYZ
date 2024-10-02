@@ -1,0 +1,603 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XYZ :: Landing Page</title>
+    <link rel="stylesheet" href="assets/styles/home.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg py-3 fixed-top border-bottom"
+      style="background: #fff !important"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand xyz-style">XYZ</a>
+
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+        <i id="hamburger" onclick="menuToggle()" class="fa-solid fa-bars"></i>
+        <i id="cancel" onclick="menuToggle()" class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/pages/About.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/pages/Feature.html" class="nav-link">Feature</a>
+            </li>
+            <li class="nav-item">
+              <a href="/pages/Pricing.html" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav navlink ms-auto">
+            <li class="nav-item">
+              <a href="#" class="lagicon"
+                ><i class="fa-solid fa-globe me-2"></i>Languages</a
+              >
+            </li>
+            <li class="nav-item mt-3 mt-md-0">
+              <a href="/pages/Login.html" class="loginstyle">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section>
+      <div class="hero-style">
+        <div class="container">
+          <div class="col-12">
+            <div class="card card-style">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-8 textstyle">
+                  <h2 class="mb-3 textwrap">
+                    Develop your skills <br class="d-none d-md-block" />
+                    without diligence
+                  </h2>
+                  <p class="parastyle mt-4">
+                    A good example of a paragraph contains a topic sentence,
+                    details and a conclusion. <br />
+                    There are many different kinds of animals that live in
+                    china.
+                  </p>
+                  <div class="my-4">
+                    <button class="btn hero-btn">Get Started</button>
+                    <button class="btn hero-btn ms-3 discountstyle">
+                      Discount
+                    </button>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 image-style">
+                  <img
+                    src="/assets/images/banner.90ef03cf.png"
+                    class="img-fluid image-hero"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- feature section -->
+    <section class="feature-section">
+      <div class="container">
+        <div
+          style="display: flex !important; align-items: center !important"
+          class="feature-state"
+        >
+          <div>
+            <h3>
+              Why we <br class="d-none d-md-block" />
+              are better <br class="d-none d-md-block" />
+              than <br class="d-none d-md-block" />
+              others
+            </h3>
+            <p style="color: #707070 !important; font-size: 16px !important">
+              A simple paragraph is comprised of
+              <br class="d-none d-md-block" />
+              three major components. The first <br class="d-none d-md-block" />
+              sentence, which is often a declarative
+              <br class="d-none d-md-block" />
+              sentence, is called the "topic sentence."
+            </p>
+          </div>
+          <div
+            class="d-flex ms-lg-auto ms-md-0 ms-sm-0 smallscreen-feature"
+            style="gap: 30px"
+          >
+            <div class="borderstyle shadow-lg">
+              <img src="/assets/Images/feature.png" alt="feature1" />
+              <h5 class="text-center">
+                Convenient study <br />
+                schedule
+              </h5>
+            </div>
+            <div class="borderstyle shadow-lg mt-lg-5 mt-md-5 mt-sm-0">
+              <img src="/assets/Images/feature.png" alt="feature2" />
+              <h5 class="text-center">
+                Convenient study <br />
+                schedule
+              </h5>
+            </div>
+            <div class="borderstyle shadow-lg">
+              <img src="/assets/Images/feature.png" alt="feature3" />
+              <h5 class="text-center">
+                Convenient study <br />
+                schedule
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="container d-md-flex d-block align-items-center about">
+        <img
+          class="img-fluid reading-imag"
+          src="/assets/images/undraw_Reading_time_re_phf7 2.8ded3484.png"
+          alt=""
+        />
+
+        <div class="ms-auto about-text">
+          <h2 class="about-first-text mb-3">
+            We have been improving our <br />
+            product <span style="color: #9a7af1">for many years.</span>
+          </h2>
+          <p
+            style="
+              font-size: 18px !important;
+              font-weight: 400 !important;
+              line-height: 28px !important;
+              color: #727272;
+            "
+          >
+            A good example of a paragraph contains a topic conclusion. There are
+            <br />
+            many different kinds of animals that live in china.
+          </p>
+          <a href="" class="btn about-btn">Get started</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="container about-2">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-12 col-lg-8">
+            <h2 class="about-first-text mb-3">
+              You can practice at any <br class="d-none d-md-block" />
+              <span style="color: #9a7af1">time convenient for you.</span>
+            </h2>
+            <p
+              style="
+                font-size: 18px !important;
+                font-weight: 400 !important;
+                line-height: 28px !important;
+                color: #727272;
+              "
+            >
+              A good example of a paragraph contains a topic
+              <br class="d-none d-md-block" />
+              conclusion. There are many different kinds of animals that
+              <br class="d-none d-md-block" />
+              live in china.
+            </p>
+            <a href="/pages/Login.html" class="btn about-btn">Get started</a>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4 image-style">
+            <img
+              src="/assets/images/undraw_My_universe_803e 1.4785ee1e.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing section -->
+    <section class="price-section">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="pricing-h2">Here is all our plans</h2>
+          <p class="pricing-p">
+            A simple paragraph is comprised of three major <br> components. The which
+            is often a declarative <br> sentence.
+          </p>
+           <div class="d-flex align-items-center justify-content-center" style="background: #fff !important;">
+            <span id="monthly" class="toggle-label-left">Monthly</span>
+             <label class="button-toggle">
+             <input type="checkbox" onclick="togglebutton()" id="priceswitch">
+             <div class="circle"></div>
+            </label>
+            <span id="yearly" class="toggle-label-right">Yearly</span>
+           </div>
+             
+        
+         
+        </div>
+        <div class="row g-4 mt-4">
+          <div class="col-lg-4 col-md-6 col-md-6 col-sm-12">
+            <div class="card shadow-lg border-0 p-4 text-center">
+              <h3>Start</h3>
+              <p>A common form of Lorem Ipsum reads: <br>
+                 Lorem Ipsum dolor sit amet, 
+                 consectetur <br> adipiscing elit</p>
+                 <p id="price" class="dollar-sign">$ 19 <span>/ month</span></p>
+                 <ul>
+                  <li><img src="/assets/images/dot.png" alt="dot">
+                    Video of lessons                  
+                  </li>
+                  <li><img src="/assets/images/dot.png" alt="dot">
+                    Homework check
+                  </li>
+                  <li>
+                    <img src="/assets/images/dot.png" alt="dot">
+                    Additional practical task
+                  </li>
+                  <li>
+                    <img src="/assets/images/dot.png" alt="dot">
+                    Monthly conferences
+                  </li>
+                  <li>
+                    <img src="/assets/images/dot.png" alt="dot">
+                    Personal advice from teachers
+                  </li>
+                 </ul>
+                 <div class="my-4">
+                   <a href="/pages/Login.html" class="btn bg-primary w-50 text-white pricing-button">Get Started</a>
+                 </div>
+            </div>
+          </div>
+         
+          <div class="col-lg-4 col-md-6 col-md-6 col-sm-12">
+            <div class="card shadow-lg border-0 p-4 text-center">
+              <h3>Advance</h3>
+              <p>A common form of Lorem Ipsum reads: <br>
+                 Lorem Ipsum dolor sit amet, 
+                 consectetur <br> adipiscing elit</p>
+                 <p id="second-price" class="dollar-sign">$ 39 <span>/ month</span></p>
+                 <ul>
+                  <li><img src="/assets/images/dot.png" alt="dot">
+                    Video of lessons                  
+                  </li>
+                  <li><img src="/assets/images/dot.png" alt="dot">
+                    Homework check
+                  </li>
+                  <li>
+                    <img src="/assets/images/dot.png" alt="dot">
+                    Additional practical task
+                  </li>
+                  <li>
+                    <img src="/assets/images/dot.png" alt="dot">
+                    Monthly conferences
+                  </li>
+                  <li>
+                    <img src="/assets/images/dot.png" alt="dot">
+                    Personal advice from teachers
+                  </li>
+                 </ul>
+                 <div class="my-4">
+                   <a href="/pages/Login.html" class="btn bg-primary w-50 text-white pricing-button">Get Started</a>
+                 </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-md-6 col-sm-12">
+            <div class="card shadow-lg border-0 p-4 text-center">
+              <h3>Premium</h3>
+              <p>A common form of Lorem Ipsum reads: <br>
+                 Lorem Ipsum dolor sit amet, 
+                 consectetur <br> adipiscing elit</p>
+                 <p id="third-price" class="dollar-sign">$ 59 <span>/ month</span></p>
+                 <ul>
+                  <li><img src="/assets/images/dot.png" alt="dot">
+                    Video of lessons                  
+                  </li>
+                  <li><img src="/assets/images/dot.png" alt="dot">
+                    Homework check
+                  </li>
+                  <li>
+                    <img src="/assets/images/dot.png" alt="dot">
+                    Additional practical task
+                  </li>
+                  <li>
+                    <img src="/assets/images/dot.png" alt="dot">
+                    Monthly conferences
+                  </li>
+                  <li>
+                    <img src="/assets/images/dot.png" alt="dot">
+                    Personal advice from teachers
+                  </li>
+                 </ul>
+                 <div class="my-4">
+                   <a href="/pages/Login.html" class="btn bg-primary w-50 text-white pricing-button">Get Started</a>
+                 </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- bottom section -->
+    <section class="last-section">
+      <div class="container">
+        <div class="col-12">
+          <div class="card card-style2">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-8 textstyle">
+                <h2 class="mb-3 textwrap">
+                  Each student can <br class="d-none d-md-block" />
+                  share their <br class="d-none d-md-block" />
+                  discount code for <br class="d-none d-md-block" />
+                  friends
+                </h2>
+                <p class="parastyle mt-4">
+                  A simple paragraph is comprised
+                  <br class="d-block d-md-none" />
+                  of three major components. The
+                  <br class="d-block d-md-none" />
+                  first sentence, which is often a
+                  <br class="d-block d-md-none" />
+                  declarative sentence, this is
+                  <br class="d-block d-md-none" />
+                  called the "topic sentence"
+                </p>
+                <div class="my-4">
+                  <button class="btn btn-primary hero-btn code-btn">
+                    I have a code
+                  </button>
+                  <button
+                    class="btn btn-primary hero-btn ms-lg-3 ms-md-3 ms-sm-0 discountstyle"
+                  >
+                    Here
+                  </button>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-4 image-style">
+                <img
+                  src="/assets/images/newsletter.c071e5e7.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-5 mt-3" style="background: #010851 !important">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <a href="#" class="footxyz">XYZ</a>
+            <p style="color: #fff; margin-top: 30px !important">
+              A simple paragraph is comprised of <br />
+              three major components. The first <br />
+              sentence, which is often a declarative <br />
+              sentence
+            </p>
+
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                style="
+                  background: #9a7af159 !important;
+                  outline: none !important;
+                  border: none !important;
+                "
+                placeholder="Your Email"
+              />
+              <button
+                class="btn rounded-2 border-0"
+                type="button"
+                id="button-addon2"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-sm-12 d-lg-flex d-md-flex d-sm-block justify-content-between"
+          >
+            <div class="first-list">
+              <h4 style="font-size: 20px !important; color: #fff">Platform</h4>
+              <p>
+                <a
+                  href="#"
+                  style="
+                    color: #fff !important;
+                    text-decoration: none !important;
+                  "
+                  >Overview</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#"
+                  style="
+                    color: #fff !important;
+                    text-decoration: none !important;
+                  "
+                  >Features</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#"
+                  style="
+                    color: #fff !important;
+                    text-decoration: none !important;
+                  "
+                  >About</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#"
+                  style="
+                    color: #fff !important;
+                    text-decoration: none !important;
+                  "
+                  >Pricing</a
+                >
+              </p>
+            </div>
+            <div class="second-list">
+              <h4 style="font-size: 20px !important; color: #fff">Help</h4>
+              <p>
+                <a
+                  href="#"
+                  style="
+                    color: #fff !important;
+                    text-decoration: none !important;
+                  "
+                  >How does it work?</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#"
+                  style="
+                    color: #fff !important;
+                    text-decoration: none !important;
+                  "
+                  >Where to ask questions?</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#"
+                  style="
+                    color: #fff !important;
+                    text-decoration: none !important;
+                  "
+                >
+                  How to play?</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#"
+                  style="
+                    color: #fff !important;
+                    text-decoration: none !important;
+                  "
+                  >What is needed for this?</a
+                >
+              </p>
+            </div>
+            <div class="third-list">
+              <h4 style="font-size: 20px !important; color: #fff">Contact</h4>
+              <p
+                style="color: #fff !important; text-decoration: none !important"
+              >
+                (+234) 810 765 9809
+              </p>
+              <p
+                style="color: #fff !important; text-decoration: none !important"
+              >
+                123 xyz xyz
+              </p>
+              <p
+                style="color: #fff !important; text-decoration: none !important"
+              >
+                Corner shop, Maitama, Abuja.
+              </p>
+              <p
+                style="color: #fff !important; text-decoration: none !important"
+              >
+                900108
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider border-bottom pt-5"></div>
+
+        <div class="row align-items-center mt-5">
+          <div class="col-lg-6 col-md-6 col-sm-12 text-light">
+            <p>@ XYZ 2024. All rights reserved.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <ul
+              class="list-unstyled list-inline-item d-flex justify-content-lg-end justify-content-md-end justify-content-sm-start"
+              style="gap: 10px !important"
+            >
+              <li class="list-inline-item">
+                <a href="#">
+                  <img
+                    src="/assets/images/Facebook.png"
+                    class="social-icon"
+                    alt="facebook"
+                  />
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <img
+                    src="/assets/images/instagram.png"
+                    class="social-icon"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <img
+                    src="/assets/images/twitter.png"
+                    class="social-icon"
+                    alt="bird"
+                  />
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <img
+                    src="/assets/images/linkedin.png"
+                    class="social-icon"
+                    alt="linkedin"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/script/home-script.js"></script>
+  </body>
+</html>
